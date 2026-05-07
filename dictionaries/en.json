@@ -1,0 +1,87 @@
+{
+  "badge": "Black Dog Works • Custom 3D Printed Parts",
+  "hero": {
+    "headline": "Broken plastic part? We'll recreate it.",
+    "subtext": "Send a photo of the broken part, explain what it needs to do, and we'll let you know if it can be redesigned and 3D printed.",
+    "cta_quote": "Request a Quote",
+    "cta_examples": "See What We Make"
+  },
+  "process": {
+    "label": "Simple process",
+    "steps": "Photo → Quote → Print → Pickup"
+  },
+  "parts": {
+    "heading": "Parts we can help with",
+    "items": [
+      "Appliance knobs",
+      "Clips and brackets",
+      "Car interior pieces",
+      "Custom mounts",
+      "Adapters and spacers",
+      "Small repair parts",
+      "Workshop organizers",
+      "Prototype pieces"
+    ]
+  },
+  "projects": {
+    "label": "Recent Projects",
+    "heading": "Real-world parts and prototypes",
+    "subtext": "A few examples of the kinds of parts Black Dog Works can help recreate, adapt, or prototype.",
+    "items": [
+      {
+        "title": "Dishwasher rack clip",
+        "description": "Small replacement clip recreated from a broken original."
+      },
+      {
+        "title": "Car interior bracket",
+        "description": "Custom plastic bracket for a missing interior piece."
+      },
+      {
+        "title": "Prototype enclosure",
+        "description": "Simple enclosure for testing a small electronics project."
+      }
+    ]
+  },
+  "steps": [
+    {
+      "label": "Step 1",
+      "heading": "Send a photo",
+      "text": "Upload clear photos of the broken part, the item it belongs to, and any rough measurements."
+    },
+    {
+      "label": "Step 2",
+      "heading": "Get a quote",
+      "text": "We review the part and send you a quote based on complexity, design time, and print requirements."
+    },
+    {
+      "label": "Step 3",
+      "heading": "Approve and print",
+      "text": "Once approved, we print the part and arrange pickup, local delivery, or shipping."
+    }
+  ],
+  "cta_section": {
+    "heading": "Not every part can be 3D printed — but many can.",
+    "text": "We'll be honest about what is realistic. Some parts need strength, heat resistance, flexibility, or precision that may require special materials or another manufacturing method."
+  },
+  "quote": {
+    "heading": "Request a quote",
+    "subtext": "Tell us what broke, what it connects to, and what the part needs to do. Photos are the most helpful.",
+    "prices_heading": "Typical starting prices",
+    "price1": "Simple replacement parts: $20–$40",
+    "price2": "Custom design + print: $50–$120+",
+    "price3": "Multiple iterations/prototypes: quoted per project",
+    "name": "Name",
+    "name_placeholder": "Your name",
+    "email": "Email",
+    "message": "What do you need?",
+    "message_placeholder": "Example: The plastic clip on my dishwasher rack broke. I still have one intact clip to copy.",
+    "photos": "Upload photos",
+    "submit": "Send Quote Request",
+    "sending": "Sending\u2026",
+    "success": "Request received \u2014 we'll be in touch soon.",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "tagline": "Montreal, Quebec \u2022 Custom Parts & Prototyping"
+  }
+}

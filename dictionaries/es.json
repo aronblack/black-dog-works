@@ -1,0 +1,87 @@
+{
+  "badge": "Black Dog Works \u2022 Piezas impresas en 3D personalizadas",
+  "hero": {
+    "headline": "\u00bfPieza de pl\u00e1stico rota? La recreamos.",
+    "subtext": "Env\u00eda una foto de la pieza rota, explica qu\u00e9 debe hacer y te diremos si se puede redise\u00f1ar e imprimir en 3D.",
+    "cta_quote": "Solicitar presupuesto",
+    "cta_examples": "Ver nuestros trabajos"
+  },
+  "process": {
+    "label": "Proceso simple",
+    "steps": "Foto \u2192 Presupuesto \u2192 Impresi\u00f3n \u2192 Entrega"
+  },
+  "parts": {
+    "heading": "Piezas que podemos fabricar",
+    "items": [
+      "Perillas de electrodom\u00e9sticos",
+      "Clips y soportes",
+      "Piezas de interior de auto",
+      "Monturas personalizadas",
+      "Adaptadores y espaciadores",
+      "Peque\u00f1as piezas de reparaci\u00f3n",
+      "Organizadores de taller",
+      "Piezas de prototipo"
+    ]
+  },
+  "projects": {
+    "label": "Proyectos recientes",
+    "heading": "Piezas reales y prototipos",
+    "subtext": "Algunos ejemplos de los tipos de piezas que Black Dog Works puede ayudar a recrear, adaptar o prototipar.",
+    "items": [
+      {
+        "title": "Clip de cesta de lavavajillas",
+        "description": "Peque\u00f1o clip de repuesto recreado a partir de un original roto."
+      },
+      {
+        "title": "Soporte de interior de auto",
+        "description": "Soporte de pl\u00e1stico personalizado para una pieza de interior faltante."
+      },
+      {
+        "title": "C\u00e1rcasa de prototipo",
+        "description": "C\u00e1rcasa simple para probar un peque\u00f1o proyecto de electr\u00f3nica."
+      }
+    ]
+  },
+  "steps": [
+    {
+      "label": "Paso 1",
+      "heading": "Env\u00eda una foto",
+      "text": "Sube fotos claras de la pieza rota, el art\u00edculo al que pertenece y cualquier medida aproximada."
+    },
+    {
+      "label": "Paso 2",
+      "heading": "Recibe un presupuesto",
+      "text": "Revisamos la pieza y te enviamos un presupuesto basado en la complejidad, el tiempo de dise\u00f1o y los requisitos de impresi\u00f3n."
+    },
+    {
+      "label": "Paso 3",
+      "heading": "Aprueba e imprime",
+      "text": "Una vez aprobado, imprimimos la pieza y coordinamos la recogida, entrega local o env\u00edo."
+    }
+  ],
+  "cta_section": {
+    "heading": "No todas las piezas se pueden imprimir en 3D \u2014 pero muchas s\u00ed.",
+    "text": "Seremos honestos sobre lo que es realista. Algunas piezas necesitan resistencia, resistencia al calor, flexibilidad o precisi\u00f3n que puede requerir materiales especiales u otro m\u00e9todo de fabricaci\u00f3n."
+  },
+  "quote": {
+    "heading": "Solicitar presupuesto",
+    "subtext": "Cu\u00e9ntanos qu\u00e9 se rompi\u00f3, a qu\u00e9 se conecta y qu\u00e9 debe hacer la pieza. Las fotos son lo m\u00e1s \u00fatil.",
+    "prices_heading": "Precios de inicio t\u00edpicos",
+    "price1": "Piezas de repuesto simples: $20\u2013$40",
+    "price2": "Dise\u00f1o personalizado + impresi\u00f3n: $50\u2013$120+",
+    "price3": "M\u00faltiples iteraciones/prototipos: cotizaci\u00f3n por proyecto",
+    "name": "Nombre",
+    "name_placeholder": "Tu nombre",
+    "email": "Correo electr\u00f3nico",
+    "message": "\u00bfQu\u00e9 necesitas?",
+    "message_placeholder": "Ejemplo: El clip de pl\u00e1stico en la cesta de mi lavavajillas se rompi\u00f3. A\u00fan tengo un clip intacto para copiar.",
+    "photos": "Subir fotos",
+    "submit": "Enviar solicitud de presupuesto",
+    "sending": "Enviando\u2026",
+    "success": "Solicitud recibida \u2014 nos pondremos en contacto pronto.",
+    "error": "Algo sali\u00f3 mal. Por favor, int\u00e9ntalo de nuevo."
+  },
+  "footer": {
+    "tagline": "Montreal, Quebec \u2022 Piezas personalizadas y prototipado"
+  }
+}

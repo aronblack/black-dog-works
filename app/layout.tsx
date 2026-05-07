@@ -1,6 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
+import { headers } from 'next/headers'
+import { ThemeProvider, ThemeScript } from './components/ThemeProvider'
 
 export const metadata: Metadata = {
   title: 'Black Dog Works',
@@ -22,14 +24,21 @@ export const metadata: Metadata = {
   },
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
+  const headersList = await headers()
+  const locale = headersList.get('x-locale') || 'en'
   return (
-    <html lang="en" className={GeistSans.className}>
-      <body className={GeistSans.className}>{children}</body>
+    <html lang={locale} className={GeistSans.className} suppressHydrationWarning>
+      <head>
+        <ThemeScript />
+      </head>
+      <body>
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
     </html>
   )
 }
