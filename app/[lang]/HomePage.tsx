@@ -15,6 +15,12 @@ const PROJECT_IMAGES = [
 
 const LOCALES = ['en', 'fr', 'es'] as const
 
+const CONTACT_LABELS: Record<(typeof LOCALES)[number], string> = {
+  en: 'Contact',
+  fr: 'Contact',
+  es: 'Contacto',
+}
+
 function SunIcon() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -36,6 +42,7 @@ function ThemeToggle() {
   const { theme, toggleTheme } = useTheme()
   return (
     <button
+      type="button"
       onClick={toggleTheme}
       aria-label="Toggle theme"
       className="flex h-8 w-8 items-center justify-center rounded-full border border-neutral-300 text-neutral-600 transition hover:bg-neutral-100 dark:border-white/20 dark:text-neutral-300 dark:hover:bg-white/10"
@@ -65,6 +72,31 @@ function LangSwitcher({ lang }: { lang: string }) {
   )
 }
 
+function EyebrowBanner({ lang }: { lang: string }) {
+  const contactLabel = CONTACT_LABELS[lang as (typeof LOCALES)[number]] ?? 'Contact'
+
+  return (
+    <div className="border-b border-neutral-200 bg-neutral-50/70 backdrop-blur dark:border-white/10 dark:bg-white/[0.03]">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-6 py-3">
+        <p className="text-xs font-semibold uppercase tracking-widest text-neutral-500 dark:text-neutral-400">
+          Black Dog Works
+        </p>
+
+        <div className="flex items-center gap-2">
+          <a
+            href="#quote"
+            className="rounded px-2 py-1 text-xs font-bold uppercase tracking-wider text-neutral-600 transition hover:text-neutral-950 dark:text-neutral-300 dark:hover:text-white"
+          >
+            {contactLabel}
+          </a>
+          <ThemeToggle />
+          <LangSwitcher lang={lang} />
+        </div>
+      </div>
+    </div>
+  )
+}
+
 export default function HomePage({
   dict,
   lang,
@@ -76,22 +108,18 @@ export default function HomePage({
 
   return (
     <main className="min-h-screen bg-white text-neutral-950 dark:bg-neutral-950 dark:text-white">
+      <EyebrowBanner lang={lang} />
+
       <section className="px-6 py-20 md:py-28">
         <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
           <div>
-            <div className="mb-10 flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full border border-neutral-300 bg-neutral-100 text-lg font-bold dark:border-white/20 dark:bg-white/10">
-                  BDW
-                </div>
-                <div>
-                  <p className="text-lg font-bold">Black Dog Works</p>
-                  <p className="text-sm text-neutral-500 dark:text-neutral-400">Custom Parts &amp; Prototyping</p>
-                </div>
+            <div className="mb-10 flex items-center gap-3">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full border border-neutral-300 bg-neutral-100 text-lg font-bold dark:border-white/20 dark:bg-white/10">
+                BDW
               </div>
-              <div className="flex items-center gap-2">
-                <ThemeToggle />
-                <LangSwitcher lang={lang} />
+              <div>
+                <p className="text-lg font-bold">Black Dog Works</p>
+                <p className="text-sm text-neutral-500 dark:text-neutral-400">Custom Parts &amp; Prototyping</p>
               </div>
             </div>
 
@@ -125,7 +153,14 @@ export default function HomePage({
 
           <div className="overflow-hidden rounded-3xl border border-neutral-200 bg-neutral-50 shadow-2xl dark:border-white/10 dark:bg-white/5">
             <div className="relative aspect-square bg-neutral-200 dark:bg-neutral-900">
-              <Image src="/placeholders/hero-workshop.jpg" alt="Black Dog Works workshop" fill className="object-cover" />
+              <Image
+                src="/placeholders/hero-workshop.jpg"
+                alt="Black Dog Works workshop"
+                fill
+                sizes="(max-width: 767px) 100vw, 50vw"
+                loading="eager"
+                className="object-cover"
+              />
             </div>
             <div className="border-t border-neutral-200 p-6 dark:border-white/10">
               <p className="text-sm uppercase tracking-widest text-neutral-500 dark:text-neutral-400">{dict.process.label}</p>
@@ -161,7 +196,13 @@ export default function HomePage({
             {dict.projects.items.map((project, i) => (
               <article key={project.title} className="overflow-hidden rounded-3xl border border-neutral-200 bg-white dark:border-white/10 dark:bg-white/5">
                 <div className="relative aspect-[4/3] bg-neutral-200 dark:bg-neutral-800">
-                  <Image src={PROJECT_IMAGES[i]} alt={project.title} fill className="object-cover" />
+                  <Image
+                    src={PROJECT_IMAGES[i]}
+                    alt={project.title}
+                    fill
+                    sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                    className="object-cover"
+                  />
                 </div>
                 <div className="p-6">
                   <h3 className="mb-2 text-xl font-bold">{project.title}</h3>
