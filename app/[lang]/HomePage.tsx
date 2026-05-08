@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { useTheme } from '../components/ThemeProvider'
+import { Heading1, Heading2, Heading3, Body } from '../components/Typography'
 import type enDict from '../../dictionaries/en.json'
 
 type Dictionary = typeof enDict
@@ -76,13 +77,12 @@ function EyebrowBanner({ lang }: { lang: string }) {
   const contactLabel = CONTACT_LABELS[lang as (typeof LOCALES)[number]] ?? 'Contact'
 
   return (
-    <div className="border-b border-neutral-200 bg-neutral-50/70 backdrop-blur dark:border-white/10 dark:bg-white/[0.03]">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-6 py-3">
-        <p className="text-xs font-semibold uppercase tracking-widest text-neutral-500 dark:text-neutral-400">
-          Black Dog Works
+    <div className="px-6 py-4">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-6">
+        <p className="font-[family-name:var(--font-roboto-slab)] text-4xl font-black leading-none tracking-tight text-neutral-950 dark:text-white">
+          BLACK DOG WORKS
         </p>
-
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 rounded-3xl border border-neutral-200 bg-neutral-50/80 px-3 py-2 backdrop-blur dark:border-white/10 dark:bg-white/[0.03]">
           <a
             href="#quote"
             className="rounded px-2 py-1 text-xs font-bold uppercase tracking-wider text-neutral-600 transition hover:text-neutral-950 dark:text-neutral-300 dark:hover:text-white"
@@ -110,30 +110,20 @@ export default function HomePage({
     <main className="min-h-screen bg-white text-neutral-950 dark:bg-neutral-950 dark:text-white">
       <EyebrowBanner lang={lang} />
 
-      <section className="px-6 py-20 md:py-28">
+      <section className="px-6 pt-6 pb-20 md:pt-10 md:pb-28">
         <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
           <div>
-            <div className="mb-10 flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full border border-neutral-300 bg-neutral-100 text-lg font-bold dark:border-white/20 dark:bg-white/10">
-                BDW
-              </div>
-              <div>
-                <p className="text-lg font-bold">Black Dog Works</p>
-                  <p className="text-sm text-neutral-500 dark:text-neutral-400">{dict.footer.tagline}</p>
-              </div>
-            </div>
-
             <p className="mb-4 inline-block rounded-full bg-neutral-100 px-4 py-2 text-sm text-neutral-600 dark:bg-white/10 dark:text-neutral-200">
               {dict.badge}
             </p>
 
-            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-6xl">
+            <Heading1 className="mb-6">
               {dict.hero.headline}
-            </h1>
+            </Heading1>
 
-            <p className="mb-8 text-lg leading-8 text-neutral-600 dark:text-neutral-300">
+            <Body className="mb-8 text-lg leading-8 text-neutral-600 dark:text-neutral-300">
               {dict.hero.subtext}
-            </p>
+            </Body>
 
             <div className="flex flex-col gap-4 sm:flex-row">
               <a
@@ -172,7 +162,7 @@ export default function HomePage({
 
       <section id="examples" className="border-y border-neutral-200 bg-neutral-50 px-6 py-16 dark:border-white/10 dark:bg-white/[0.03]">
         <div className="mx-auto max-w-6xl">
-          <h2 className="mb-10 text-3xl font-bold md:text-4xl">{dict.parts.heading}</h2>
+          <Heading2 className="mb-10">{dict.parts.heading}</Heading2>
           <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-4">
             {dict.parts.items.map(item => (
               <div key={item} className="rounded-2xl border border-neutral-200 bg-neutral-100 p-5 dark:border-white/10 dark:bg-neutral-900">
@@ -188,7 +178,7 @@ export default function HomePage({
           <div className="mb-10 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
               <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-neutral-500 dark:text-neutral-400">{dict.projects.label}</p>
-              <h2 className="text-3xl font-bold md:text-4xl">{dict.projects.heading}</h2>
+              <Heading2>{dict.projects.heading}</Heading2>
             </div>
             <p className="max-w-xl text-neutral-600 dark:text-neutral-300">{dict.projects.subtext}</p>
           </div>
@@ -205,8 +195,8 @@ export default function HomePage({
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="mb-2 text-xl font-bold">{project.title}</h3>
-                  <p className="text-neutral-600 dark:text-neutral-300">{project.description}</p>
+                  <Heading3 className="mb-2">{project.title}</Heading3>
+                  <Body className="text-neutral-600 dark:text-neutral-300">{project.description}</Body>
                 </div>
               </article>
             ))}
@@ -219,8 +209,8 @@ export default function HomePage({
           {dict.steps.map(step => (
             <div key={step.label}>
               <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-neutral-500 dark:text-neutral-400">{step.label}</p>
-              <h3 className="mb-3 text-2xl font-bold">{step.heading}</h3>
-              <p className="text-neutral-600 dark:text-neutral-300">{step.text}</p>
+              <Heading3 className="mb-3 text-2xl">{step.heading}</Heading3>
+              <Body className="text-neutral-600 dark:text-neutral-300">{step.text}</Body>
             </div>
           ))}
         </div>
@@ -228,16 +218,16 @@ export default function HomePage({
 
       <section className="bg-neutral-100 px-6 py-16 dark:bg-neutral-900">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="mb-5 text-3xl font-bold md:text-4xl">{dict.cta_section.heading}</h2>
-          <p className="text-lg leading-8 text-neutral-600 dark:text-neutral-300">{dict.cta_section.text}</p>
+          <Heading2 className="mb-5">{dict.cta_section.heading}</Heading2>
+          <Body className="text-lg leading-8 text-neutral-600 dark:text-neutral-300">{dict.cta_section.text}</Body>
         </div>
       </section>
 
       <section id="quote" className="px-6 py-20">
         <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-2">
           <div>
-            <h2 className="mb-5 text-3xl font-bold md:text-5xl">{dict.quote.heading}</h2>
-            <p className="mb-6 text-lg leading-8 text-neutral-600 dark:text-neutral-300">{dict.quote.subtext}</p>
+            <Heading2 className="mb-5 md:text-5xl">{dict.quote.heading}</Heading2>
+            <Body className="mb-6 text-lg leading-8 text-neutral-600 dark:text-neutral-300">{dict.quote.subtext}</Body>
             <div className="rounded-2xl border border-neutral-200 bg-neutral-50 p-5 text-neutral-600 dark:border-white/10 dark:bg-white/5 dark:text-neutral-300">
               <p className="font-semibold text-neutral-950 dark:text-white">{dict.quote.prices_heading}</p>
               <p className="mt-2">{dict.quote.price1}</p>
