@@ -119,7 +119,7 @@ export default function HomePage({
               </div>
               <div>
                 <p className="text-lg font-bold">Black Dog Works</p>
-                  <p className="text-sm text-neutral-500 dark:text-neutral-400">Precision 3D parts. Reliably delivered.</p>
+                  <p className="text-sm text-neutral-500 dark:text-neutral-400">{dict.footer.tagline}</p>
               </div>
             </div>
 
