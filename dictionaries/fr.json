@@ -1,87 +1,87 @@
 {
-  "badge": "Black Dog Works \u2022 Pi\u00e8ces imprim\u00e9es en 3D sur mesure",
+  "badge": "Black Dog Works • Pieces de precision",
   "hero": {
-    "headline": "Pi\u00e8ce en plastique cass\u00e9e\u00a0? On la recr\u00e9e.",
-    "subtext": "Envoyez une photo de la pi\u00e8ce cass\u00e9e, expliquez ce qu\u2019elle doit faire, et nous vous dirons si elle peut \u00eatre redessin\u00e9e et imprim\u00e9e en 3D.",
+    "headline": "Pieces pratiques. Livrees en toute fiabilite.",
+    "subtext": "Nous concevons et imprimons en 3D des pieces de remplacement, des composants de reparation et des prototypes fonctionnels pour un usage reel.",
     "cta_quote": "Demander un devis",
-    "cta_examples": "Voir nos r\u00e9alisations"
+    "cta_examples": "Voir les exemples"
   },
   "process": {
     "label": "Processus simple",
-    "steps": "Photo \u2192 Devis \u2192 Impression \u2192 Livraison"
+    "steps": "Photo -> Conception -> Impression -> Installation"
   },
   "parts": {
-    "heading": "Pi\u00e8ces que nous pouvons r\u00e9aliser",
+    "heading": "Capacites",
     "items": [
-      "Boutons d\u2019appareils",
-      "Clips et supports",
-      "Pi\u00e8ces d\u2019habitacle auto",
-      "Fixations personnalis\u00e9es",
-      "Adaptateurs et entretoises",
-      "Petites pi\u00e8ces de r\u00e9paration",
-      "Organisateurs d\u2019atelier",
-      "Pi\u00e8ces de prototype"
+      "Impression 3D de precision",
+      "Solutions sur mesure",
+      "Prototypes fonctionnels",
+      "Petites series de production",
+      "Materiaux performants",
+      "Remplacements orientes reparation",
+      "Redesigns ajustes au besoin",
+      "Prototypage pret a iterer"
     ]
   },
   "projects": {
-    "label": "Projets r\u00e9cents",
-    "heading": "Pi\u00e8ces r\u00e9elles et prototypes",
-    "subtext": "Quelques exemples des types de pi\u00e8ces que Black Dog Works peut aider \u00e0 recr\u00e9er, adapter ou prototyper.",
+    "label": "Exemples",
+    "heading": "Des solutions qui simplifient la vie.",
+    "subtext": "Des pieces domestiques cassees aux besoins fonctionnels uniques, nous creons des pieces qui s'ajustent, fonctionnent et durent.",
     "items": [
       {
-        "title": "Clip de panier de lave-vaisselle",
-        "description": "Petit clip de remplacement recr\u00e9\u00e9 \u00e0 partir d\u2019un original cass\u00e9."
+        "title": "Reparation de charniere d'armoire",
+        "description": "Support de charniere casse remplace par une piece imprimee plus solide et mieux ajustee."
       },
       {
-        "title": "Support int\u00e9rieur de voiture",
-        "description": "Support en plastique personnalis\u00e9 pour une pi\u00e8ce d\u2019int\u00e9rieur manquante."
+        "title": "Remplacement de bouton de grille-pain",
+        "description": "Bouton de commande manquant recree pour un ajustement sur et un usage quotidien."
       },
       {
-        "title": "Bo\u00eetier de prototype",
-        "description": "Bo\u00eetier simple pour tester un petit projet d\u2019\u00e9lectronique."
+        "title": "Poignee de tiroir sur mesure",
+        "description": "Poignee fonctionnelle concue et imprimee quand la piece d'origine n'etait plus disponible."
       }
     ]
   },
   "steps": [
     {
-      "label": "\u00c9tape 1",
-      "heading": "Envoyez une photo",
-      "text": "T\u00e9l\u00e9versez des photos claires de la pi\u00e8ce cass\u00e9e, de l\u2019objet auquel elle appartient, et des mesures approximatives."
+      "label": "Etape 1",
+      "heading": "Envoyez-le",
+      "text": "Partagez des photos, des mesures ou la piece cassee pour evaluer l'ajustement et la fonction."
     },
     {
-      "label": "\u00c9tape 2",
-      "heading": "Recevez un devis",
-      "text": "Nous examinons la pi\u00e8ce et vous envoyons un devis bas\u00e9 sur la complexit\u00e9, le temps de conception et les exigences d\u2019impression."
+      "label": "Etape 2",
+      "heading": "Nous concevons",
+      "text": "Nous modelisons votre piece pour un usage reel, puis nous confirmons prix et delai."
     },
     {
-      "label": "\u00c9tape 3",
-      "heading": "Approuvez et imprimez",
-      "text": "Une fois approuv\u00e9, nous imprimons la pi\u00e8ce et organisons la cueillette, la livraison locale ou l\u2019exp\u00e9dition."
+      "label": "Etape 3",
+      "heading": "Nous la fabriquons",
+      "text": "Nous imprimons, testons et finissons votre piece, prete pour cueillette, livraison locale ou expedition."
     }
   ],
   "cta_section": {
-    "heading": "Toutes les pi\u00e8ces ne peuvent pas \u00eatre imprim\u00e9es en 3D \u2014 mais beaucoup le peuvent.",
-    "text": "Nous serons honn\u00eates sur ce qui est r\u00e9aliste. Certaines pi\u00e8ces n\u00e9cessitent de la solidit\u00e9, une r\u00e9sistance \u00e0 la chaleur, de la flexibilit\u00e9 ou une pr\u00e9cision qui peut n\u00e9cessiter des mat\u00e9riaux sp\u00e9ciaux ou une autre m\u00e9thode de fabrication."
+    "heading": "Concu pour la piece que personne ne vend plus.",
+    "text": "Qu'il s'agisse d'un remplacement unique ou d'une petite serie, nous priorisons des resultats pratiques: ajustement net, fonction fiable et conseils honnetes."
   },
   "quote": {
     "heading": "Demander un devis",
-    "subtext": "Dites-nous ce qui est cass\u00e9, \u00e0 quoi \u00e7a se connecte, et ce que la pi\u00e8ce doit faire. Les photos sont les plus utiles.",
-    "prices_heading": "Prix de d\u00e9part typiques",
-    "price1": "Pi\u00e8ces de remplacement simples\u00a0: 20\u00a0$\u00a0\u2013\u00a040\u00a0$",
-    "price2": "Design personnalis\u00e9 + impression\u00a0: 50\u00a0$\u00a0\u2013\u00a0120\u00a0$+",
-    "price3": "It\u00e9rations multiples/prototypes\u00a0: prix sur devis",
+    "subtext": "Expliquez le probleme: ce qui est casse, ou la piece s'insere, et ce qu'elle doit faire. Les photos sont la facon la plus rapide de commencer.",
+    "prices_heading": "Prix de depart typiques",
+    "price1": "Pieces de remplacement simples: a partir de 20 $",
+    "price2": "Conception personnalisee + impression: a partir de 50 $",
+    "price3": "Prototypes et iterations: tarif sur devis",
     "name": "Nom",
     "name_placeholder": "Votre nom",
     "email": "Courriel",
-    "message": "De quoi avez-vous besoin\u00a0?",
-    "message_placeholder": "Exemple\u00a0: Le clip en plastique de mon panier de lave-vaisselle est cass\u00e9. J\u2019ai encore un clip intact pour le copier.",
-    "photos": "T\u00e9l\u00e9verser des photos",
-    "submit": "Envoyer la demande de devis",
-    "sending": "Envoi en cours\u2026",
-    "success": "Demande re\u00e7ue \u2014 nous vous contacterons bient\u00f4t.",
-    "error": "Une erreur s\u2019est produite. Veuillez r\u00e9essayer."
+    "message": "De quoi avez-vous besoin?",
+    "message_placeholder": "Exemple: Le clip en plastique de mon panier de lave-vaisselle est casse. J'ai encore un clip intact pour le copier.",
+    "photos": "Televerser des photos",
+    "submit": "Demander un devis",
+    "sending": "Envoi en cours...",
+    "success": "Demande recue - nous vous contacterons bientot.",
+    "error": "Une erreur s'est produite. Veuillez reessayer."
   },
   "footer": {
-    "tagline": "Pièces 3D de précision. Livrées en toute fiabilité."
+    "tagline": "Pieces pratiques. Livrees en toute fiabilite."
   }
 }

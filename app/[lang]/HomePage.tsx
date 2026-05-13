@@ -79,10 +79,10 @@ function EyebrowBanner({ lang }: { lang: string }) {
   return (
     <div className="px-6 py-4">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-6">
-        <p className="font-[family-name:var(--font-roboto-slab)] text-4xl font-black leading-none tracking-tight text-neutral-950 dark:text-white">
+        {/* <p className="hidden font-[family-name:var(--font-roboto-slab)] text-4xl font-black leading-none tracking-tight text-neutral-950 dark:text-white">
           BLACK DOG WORKS
-        </p>
-        <div className="flex items-center gap-2 rounded-3xl border border-neutral-200 bg-neutral-50/80 px-3 py-2 backdrop-blur dark:border-white/10 dark:bg-white/[0.03]">
+        </p> */}
+        <div className="ml-auto flex items-center gap-2 rounded-3xl border border-neutral-200 bg-neutral-50/80 px-3 py-2 backdrop-blur dark:border-white/10 dark:bg-white/[0.03]">
           <a
             href="#quote"
             className="rounded px-2 py-1 text-xs font-bold uppercase tracking-wider text-neutral-600 transition hover:text-neutral-950 dark:text-neutral-300 dark:hover:text-white"
@@ -113,9 +113,20 @@ export default function HomePage({
       <section className="px-6 pt-6 pb-20 md:pt-10 md:pb-28">
         <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
           <div>
-            <p className="mb-4 inline-block rounded-full bg-neutral-100 px-4 py-2 text-sm text-neutral-600 dark:bg-white/10 dark:text-neutral-200">
-              {dict.badge}
-            </p>
+            {/* <p className="mb-4 inline-block rounded-full bg-neutral-100 px-4 py-2 text-sm text-neutral-600 dark:bg-white/10 dark:text-neutral-200">
+              {badgeText}
+            </p> */}
+
+            <div className="mb-6">
+              <Image
+                src="/logo.jpg"
+                alt="Black Dog Works logo"
+                width={280}
+                height={280}
+                priority
+                className="h-auto w-40 md:w-52"
+              />
+            </div>
 
             <Heading1 className="mb-6">
               {dict.hero.headline}
@@ -291,7 +302,7 @@ export default function HomePage({
 
       <footer className="border-t border-neutral-200 px-6 py-10 text-sm text-neutral-400 dark:border-white/10 dark:text-neutral-500">
         <div className="mx-auto flex max-w-6xl flex-col gap-4 md:flex-row md:items-center md:justify-between">
-          <p>© 2026 Black Dog Works</p>
+          <p>© 2026</p>
           <p>{dict.footer.tagline}</p>
         </div>
       </footer>

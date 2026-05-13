@@ -1,87 +1,87 @@
 {
-  "badge": "Black Dog Works \u2022 Piezas impresas en 3D personalizadas",
+  "badge": "Black Dog Works • Piezas de precision",
   "hero": {
-    "headline": "\u00bfPieza de pl\u00e1stico rota? La recreamos.",
-    "subtext": "Env\u00eda una foto de la pieza rota, explica qu\u00e9 debe hacer y te diremos si se puede redise\u00f1ar e imprimir en 3D.",
+    "headline": "Piezas practicas. Entregadas con confianza.",
+    "subtext": "Disenamos e imprimimos en 3D piezas de reemplazo, componentes de reparacion y prototipos funcionales para uso real.",
     "cta_quote": "Solicitar presupuesto",
-    "cta_examples": "Ver nuestros trabajos"
+    "cta_examples": "Ver ejemplos"
   },
   "process": {
     "label": "Proceso simple",
-    "steps": "Foto \u2192 Presupuesto \u2192 Impresi\u00f3n \u2192 Entrega"
+    "steps": "Foto -> Diseno -> Impresion -> Instalacion"
   },
   "parts": {
-    "heading": "Piezas que podemos fabricar",
+    "heading": "Capacidades",
     "items": [
-      "Perillas de electrodom\u00e9sticos",
-      "Clips y soportes",
-      "Piezas de interior de auto",
-      "Monturas personalizadas",
-      "Adaptadores y espaciadores",
-      "Peque\u00f1as piezas de reparaci\u00f3n",
-      "Organizadores de taller",
-      "Piezas de prototipo"
+      "Impresion 3D de precision",
+      "Soluciones personalizadas",
+      "Prototipos funcionales",
+      "Produccion en lotes pequenos",
+      "Materiales de alto rendimiento",
+      "Repuestos orientados a reparacion",
+      "Redisenos ajustados a medida",
+      "Prototipado listo para iterar"
     ]
   },
   "projects": {
-    "label": "Proyectos recientes",
-    "heading": "Piezas reales y prototipos",
-    "subtext": "Algunos ejemplos de los tipos de piezas que Black Dog Works puede ayudar a recrear, adaptar o prototipar.",
+    "label": "Ejemplos",
+    "heading": "Soluciones que facilitan la vida.",
+    "subtext": "Desde piezas de hogar rotas hasta soluciones funcionales unicas, creamos piezas que encajan, funcionan y duran.",
     "items": [
       {
-        "title": "Clip de cesta de lavavajillas",
-        "description": "Peque\u00f1o clip de repuesto recreado a partir de un original roto."
+        "title": "Reparacion de bisagra de gabinete",
+        "description": "Soporte de bisagra roto reemplazado por una pieza impresa mas resistente y precisa."
       },
       {
-        "title": "Soporte de interior de auto",
-        "description": "Soporte de pl\u00e1stico personalizado para una pieza de interior faltante."
+        "title": "Reemplazo de perilla de tostadora",
+        "description": "Perilla faltante recreada para un ajuste seguro y uso diario."
       },
       {
-        "title": "C\u00e1rcasa de prototipo",
-        "description": "C\u00e1rcasa simple para probar un peque\u00f1o proyecto de electr\u00f3nica."
+        "title": "Tirador de cajon personalizado",
+        "description": "Tirador funcional disenado e impreso cuando el herraje original ya no estaba disponible."
       }
     ]
   },
   "steps": [
     {
       "label": "Paso 1",
-      "heading": "Env\u00eda una foto",
-      "text": "Sube fotos claras de la pieza rota, el art\u00edculo al que pertenece y cualquier medida aproximada."
+      "heading": "Envialo",
+      "text": "Comparte fotos, medidas o la pieza rota para evaluar ajuste y funcionamiento."
     },
     {
       "label": "Paso 2",
-      "heading": "Recibe un presupuesto",
-      "text": "Revisamos la pieza y te enviamos un presupuesto basado en la complejidad, el tiempo de dise\u00f1o y los requisitos de impresi\u00f3n."
+      "heading": "Disenamos",
+      "text": "Modelamos tu pieza para rendimiento real y confirmamos precio y plazo."
     },
     {
       "label": "Paso 3",
-      "heading": "Aprueba e imprime",
-      "text": "Una vez aprobado, imprimimos la pieza y coordinamos la recogida, entrega local o env\u00edo."
+      "heading": "La fabricamos",
+      "text": "Imprimimos, probamos y terminamos tu pieza, lista para recogida, entrega local o envio."
     }
   ],
   "cta_section": {
-    "heading": "No todas las piezas se pueden imprimir en 3D \u2014 pero muchas s\u00ed.",
-    "text": "Seremos honestos sobre lo que es realista. Algunas piezas necesitan resistencia, resistencia al calor, flexibilidad o precisi\u00f3n que puede requerir materiales especiales u otro m\u00e9todo de fabricaci\u00f3n."
+    "heading": "Hecho para la pieza que ya nadie vende.",
+    "text": "Ya sea un repuesto unico o una pequena serie, priorizamos resultados practicos: ajuste limpio, funcion confiable y asesoria honesta."
   },
   "quote": {
     "heading": "Solicitar presupuesto",
-    "subtext": "Cu\u00e9ntanos qu\u00e9 se rompi\u00f3, a qu\u00e9 se conecta y qu\u00e9 debe hacer la pieza. Las fotos son lo m\u00e1s \u00fatil.",
-    "prices_heading": "Precios de inicio t\u00edpicos",
-    "price1": "Piezas de repuesto simples: $20\u2013$40",
-    "price2": "Dise\u00f1o personalizado + impresi\u00f3n: $50\u2013$120+",
-    "price3": "M\u00faltiples iteraciones/prototipos: cotizaci\u00f3n por proyecto",
+    "subtext": "Cuentanos el problema: que se rompio, donde encaja y que debe hacer la pieza. Las fotos son la forma mas rapida de comenzar.",
+    "prices_heading": "Precios de inicio tipicos",
+    "price1": "Repuestos simples: desde $20",
+    "price2": "Diseno personalizado + impresion: desde $50",
+    "price3": "Prototipos e iteraciones: cotizacion por proyecto",
     "name": "Nombre",
     "name_placeholder": "Tu nombre",
-    "email": "Correo electr\u00f3nico",
-    "message": "\u00bfQu\u00e9 necesitas?",
-    "message_placeholder": "Ejemplo: El clip de pl\u00e1stico en la cesta de mi lavavajillas se rompi\u00f3. A\u00fan tengo un clip intacto para copiar.",
+    "email": "Correo electronico",
+    "message": "Que necesitas?",
+    "message_placeholder": "Ejemplo: El clip de plastico en la cesta de mi lavavajillas se rompio. Aun tengo un clip intacto para copiar.",
     "photos": "Subir fotos",
-    "submit": "Enviar solicitud de presupuesto",
-    "sending": "Enviando\u2026",
-    "success": "Solicitud recibida \u2014 nos pondremos en contacto pronto.",
-    "error": "Algo sali\u00f3 mal. Por favor, int\u00e9ntalo de nuevo."
+    "submit": "Solicitar presupuesto",
+    "sending": "Enviando...",
+    "success": "Solicitud recibida - nos pondremos en contacto pronto.",
+    "error": "Algo salio mal. Por favor, intentalo de nuevo."
   },
   "footer": {
-    "tagline": "Piezas 3D de precisión. Entregadas con confianza."
+    "tagline": "Piezas practicas. Entregadas con confianza."
   }
 }
